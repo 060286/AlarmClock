@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c2c2e</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#a094b7</color>
+    <color name="Background">#FFFFFF</color>
+    <color name="Letters_Light">#121212</color>
+    <color name="Letters_Dark">#FFFFFF</color>
+    <color name="colorButton_Bg">#FFFFFF</color>
+
+    <color name="Background_menu">#2c2c2e</color>
+    <color name="Background_LightPurple">#38006b</color>
+    <color name="Background_TextViewWhite">#6746c3</color>
+    <color name="Background_TextColorPurple">#fff7ff</color>
+
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorBackground">#121212</color>
+</resources>

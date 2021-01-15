@@ -1,6 +1,52 @@
 <resources>
-    <string name="app_name">AlarmClock</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Annoying Alarm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Todo_list">Todo List</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- More screen -->
+    <string name="account_info">Account Info</string>
+    <string name="nofitication">Nofitications</string>
+    <string name="to_do_list">Todo list</string>
+    <string name="theme">Light Mode</string>
+    <string name="setting">Settings</string>
+
+    <!-- Login screen -->
+    <string name="welcome_app">Welcome to Annoying Alarm</string>
+    <string name="content_app">Login to see your top picks for you</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="log_out">  Log out</string>
+    <string name="sleep_music">Sleep music</string>
+    <string name="go_to_details">Go to details</string>
+    <string name="details">Details</string>
+    <string name="challenges">Challenges</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Create account</string>
+    <string name="login">Already a member? Login</string>
+    <string name="register_title">Don\'t have an account? Sign up</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_pwd_content">We just need your registered Email to sent you password reset instructions</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="email">Email</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_password">Change Password</string>
 </resources>

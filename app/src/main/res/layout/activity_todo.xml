@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context=".todo.TodoListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:background="@color/Background_menu"
+        android:layout_weight="8">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:text="What todo ?"
+            android:textSize="25dp"
+            android:textColor="@color/colorText"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"/>
+        <ImageButton
+            android:id="@+id/btnAddTodo"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="10"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_add"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/listView"
+        android:layout_weight="90"/>
+</LinearLayout>

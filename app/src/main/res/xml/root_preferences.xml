@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="test"
+        app:title="Customization">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_darkmode"
+            android:title="Darkmode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Others">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="switch_preference_1"
+            android:title="Battery Saver" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
